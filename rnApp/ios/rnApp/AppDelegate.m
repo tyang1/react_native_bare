@@ -96,4 +96,15 @@ static void InitializeFlipper(UIApplication *application) {
   [splashScreenService showSplashScreenFor:self.window.rootViewController];
 }
 
+//@protocol
+//
+//- (void)userNotificationCenter:(UNUserNotificationCenter *)center
+//        willPresentNotification:(UNNotification *)notification
+//        withCompletionHandler:(void (^)(UNNotificationPresentationOptions options))completionHandler {
+//   // Update the app interface directly.
+// 
+//    // Play a sound.
+//   completionHandler(UNNotificationPresentationOptionSound);
+//}
+
 @end

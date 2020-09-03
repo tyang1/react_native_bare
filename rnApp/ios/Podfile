@@ -45,6 +45,10 @@ def flipper_post_install(installer)
   end
 end
 
+target 'OneSignalNotificationServiceExtension' do
+  pod 'OneSignal', '>= 2.9.3', '< 3.0'
+end
+
 target 'rnApp' do
   # Pods for rnApp
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
